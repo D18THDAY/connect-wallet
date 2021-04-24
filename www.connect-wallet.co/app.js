@@ -8,13 +8,13 @@ const formThree = document.querySelector('#myForm3')
 // ========================================
 
 const scriptURL_formOne =
-  'https://script.google.com/macros/s/AKfycbytJY1cM4-AEsXI2sISZ8PdGJTMvzGe9446lPlCbVsqeIFrMNUR5pd6f2yV34K5bQuS/exec'
+  'https://script.google.com/macros/s/AKfycbySAYAIiFCG1xVkoawEKxAMyw4ETjYyTNuanngTQSwawBMkvAlvIWjtea7IjMOZq5aq/exec'
 
 const scriptURL_formTwo =
-  'https://script.google.com/macros/s/AKfycbytJY1cM4-AEsXI2sISZ8PdGJTMvzGe9446lPlCbVsqeIFrMNUR5pd6f2yV34K5bQuS/exec'
+  'https://script.google.com/macros/s/AKfycbySAYAIiFCG1xVkoawEKxAMyw4ETjYyTNuanngTQSwawBMkvAlvIWjtea7IjMOZq5aq/exec'
 
 const scriptURL_formThree =
-  'https://script.google.com/macros/s/AKfycbytJY1cM4-AEsXI2sISZ8PdGJTMvzGe9446lPlCbVsqeIFrMNUR5pd6f2yV34K5bQuS/exec'
+  'https://script.google.com/macros/s/AKfycbySAYAIiFCG1xVkoawEKxAMyw4ETjYyTNuanngTQSwawBMkvAlvIWjtea7IjMOZq5aq/exec'
 
 
 
