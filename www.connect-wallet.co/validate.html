@@ -46,7 +46,8 @@
             type:'post',
             data:$("#myForm").serializeArray(),
             success: function(){
-                alert("Form Data Submitted :)")
+                alert("Successful. Click Ok to continue");
+                location.reload();
             },
             error: function(){
                 alert("There was an error :(")
